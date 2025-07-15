@@ -25,8 +25,7 @@
 		},
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["dist/**"],
-			"exclude": ["packages/frontend/@n8n/chat"]
+			"outputs": ["dist/**"]
 		},
 		"typecheck": {
 			"dependsOn": ["^typecheck"]
